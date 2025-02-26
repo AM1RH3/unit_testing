@@ -1,5 +1,5 @@
 class Calculate {
-  double _result = 0;
+  final double _result = 0;
   double sum(List<double> numbers) {
     double _result = 0;
     for (double number in numbers) {
